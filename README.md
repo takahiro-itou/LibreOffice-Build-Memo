@@ -29,6 +29,13 @@ cd libreoffice
 time ./autogen.sh ; echo $?
 ```
 
+- 実行時間
+```
+real    0m22.512s
+user    0m12.354s
+sys     0m2.414s
+```
+
 ```
 time make ; echo $?
 time make check ; echo $?
