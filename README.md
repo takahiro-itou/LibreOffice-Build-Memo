@@ -45,3 +45,7 @@ time make check ; echo $?
 ##  参考文献
 
 - https://wiki.documentfoundation.org/Development/BuildingOnLinux/ja
+
+- Paste Special
+    - https://bugs.documentfoundation.org/show_bug.cgi?id=69750
+    - https://git.libreoffice.org/core/+/9d0ca8ee3f0c2a4e6c0bebec6ef1523cd04e849a%5E%21
