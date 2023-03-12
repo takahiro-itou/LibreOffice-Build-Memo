@@ -41,6 +41,14 @@ sys     0m2.414s
 time make ; echo $?
 time make check ; echo $?
 ```
+- 実行時間
+    - make
+
+```
+real    226m14.412s
+user    344m32.133s
+sys     21m14.653s
+```
 
 ##  参考文献
 
