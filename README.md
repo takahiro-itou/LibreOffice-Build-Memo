@@ -2,14 +2,14 @@
 
 ##  クローン
 
-```
+```bash
 time git clone https://gerrit.libreoffice.org/core libreoffice ; echo $?
 cd libreoffice
 ```
 
 - 出力例
 
-```
+```bash
 # Cloning into 'libreoffice'...
 # remote: Counting objects: 6001874, done
 # remote: Finding sources: 100% (6001874/6001874)
@@ -25,18 +25,19 @@ cd libreoffice
 
 ##  ビルド
 
-```
+```bash
 time ./autogen.sh ; echo $?
 ```
 
 - 実行時間
-```
+
+```bash
 real    0m22.512s
 user    0m12.354s
 sys     0m2.414s
 ```
 
-```
+```bash
 time make ; echo $?
 time make check ; echo $?
 ```
