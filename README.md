@@ -16,7 +16,7 @@ cd libreoffice
 またはハック版をクローン
 
 ```bash
-time git clone ://github.com/takahiro-itou/core.git libreoffice ; echo $?
+time git clone git@github.com:takahiro-itou/core.git libreoffice ; echo $?
 cd libreoffice
 ```
 
