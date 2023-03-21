@@ -1,9 +1,22 @@
 # ビルド手順
 
-##  クローン
+##  この作業メモのクローン
+
+```bash
+git clone --recursive git@github.com:takahiro-itou/LibreOffice-Build.git
+```
+
+##  本体のクローン
 
 ```bash
 time git clone https://gerrit.libreoffice.org/core libreoffice ; echo $?
+cd libreoffice
+```
+
+またはハック版をクローン
+
+```bash
+time git clone ://github.com/takahiro-itou/core.git libreoffice ; echo $?
 cd libreoffice
 ```
 
